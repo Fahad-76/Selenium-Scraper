@@ -3,9 +3,7 @@ Web scraper built with Selenium in Python to extract match statistics and match 
 
 This Webscraper is able to handle the dynamic JavaScript content to extract necessary data and arrange it into a Pandas Dataframe for ease of analysis and export
 
-Clicks on the Stats tab and scrapes all the relevant statistics
-
-Make use of a custom parser with known stats to be able to arrange the data into a pandas dataframe since not all the stats follow the same structure.
+It clicks on the Stats tab and scrapes all relevant statistics. A custom parser with predefined stats is used to handle inconsistent formatting across different stats
 
 Main Libraries are:
 -Selenium
